@@ -3,11 +3,11 @@ const answer = document.querySelectorAll('.char-tabs li');
 //смена информации об игре
 for (let i = 0; i < questions.length; i++) {
 	(function (i){
-			var question = questions[i];
+			let question = questions[i];
 			question.onclick = function (){
 				for (let j = 0; j < answer.length; j++) {
 					const displayStyle = window.getComputedStyle(answer[j]).display;
-					if(displayStyle == "list-item") {
+					if(displayStyle === "list-item") {
 						answer[j].style.height = "0";
 						answer[j].style.zIndex = "10";
 						answer[j].style.transitionDelay = "1";

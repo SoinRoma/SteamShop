@@ -1,4 +1,3 @@
-
 const logIn = document.querySelector(".login");
 const userPhoto = document.querySelector(".user-photo");
 const logOut = document.querySelector(".logout");
