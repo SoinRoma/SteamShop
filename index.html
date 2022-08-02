@@ -1,176 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>SteamShop - покупай и играй!</title>
-	<link rel="icon" type="image/png" sizes="32x32" href="img/icons/steam-icon-logo.svg"/>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steam-Shop - покупай и играй!</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/icons/steam-icon-logo.svg"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-	
-
-	<header class="header">
-			<a href="index.html" class="logo">
-					<img width="48" height="48" src="img/icons/steam-icon-logo.svg" alt="steam">
-			</a>
-		<div class="header-block">
-			<div class="search"><input type="search" name="" id="" placeholder="Поиск по магазину">
-			<img src="img/icons/search.svg" alt="">
-			</div>
-			<div class="buttons">
-			<div class="user">
-				<img class="login" src="img/icons/user.svg" alt="">
-				<img class="user-photo hidden " src="img/icons/user.png" alt="">
-				<img class="logout hidden" src="img/icons/arrow.svg" alt="">
-			</div>
-		</div>
-	</header>
-
-	<nav class="nav-wrap">
-		<ul>
-			<li class="current">
-				<a href="index.html">
-					<img src="img/icons/home-run.svg" alt="">
-				</a>
-			</li>
-
-			<li>
-				<a href="page-store.html">
-					<img src="img/icons/shop.svg" alt="">
-				</a>
-			</li>
-
-			<li>
-				<a target="_blank" href="https://www.youtube.com/watch?v=5qap5aO4i9A&ab_channel=LofiGirl">
-					<img src="img/icons/audio.svg" alt="">
-				</a>
-			</li>
-
-			<li>
-				<a target="_blank" href="https://www.youtube.com/c/PlayStation/videos">
-					<img src="img/icons/clapperboard.svg" alt="">
-				</a>
-			</li>
-
-		</ul>
-	</nav>
-
-	<h2 class="home-title">Лидеры продаж</h2>
-
-	<section class="content">
-		<div class="game-card game-card__order game-home">
-			<div class="game-photo game-photo__order">
-				<img src="img/game/cyber.png" alt="">
-			</div>
-			<div class="game-info game-info__order">
-				<a href="#" class="btn-filter">НОВИНКА</a>
-				<h2>Cyberpunk 2077</h2>
-				<p>Cyberpunk 2077 - это приключенческий боевик с открытым миром, действие которого происходит в Найт сити, мегаполисе, одержимом властью, гламуром и модификациями тела.</p>
-				<div class="game-platforms">
-					<img src="img/icons/ps.svg" alt="Playstation"><img src="img/icons/xbox.svg" alt="Xbox"><img src="img/icons/win.svg" alt="Windows">
-				</div>
-				<div class="game-price">
-					<span>$27.30</span><a target="_blank" href="https://store.steampowered.com/app/1091500/Cyberpunk_2077/" class="btn-cart">Заказать</a>
-				</div>
-			</div>
-		</div>
-
-		
-
-		<a href="" class="game-card game-card__small">
-			<div class="game-photo">
-				<img src="img/game/lidergames/btf5.png" alt="">
-			</div>
-			<div class="game-info">
-				<h4>Battlefield V</h4>
-				<span class="game-genre">Action, Adventure</span>
-				<div class="game-price"><span>$25.60</span></div>
-			</div>
-		</a>
-
-		<a href="" class="game-card game-card__small">
-			<div class="game-photo">
-				<img src="img/game/lidergames/call.png" alt="">
-			</div>
-			<div class="game-info">
-				<h4>Call of Duty MW</h4>
-				<span class="game-genre">Action, Adventure</span>
-				<div class="game-price"><span>$30.60</span></div>
-			</div>
-		</a>
-
-		<a href="" class="game-card game-card__small">
-			<div class="game-photo">
-				<img src="img/game/lidergames/cyberpank.png" alt="">
-			</div>
-			<div class="game-info">
-				<h4>Cyberpunk 2077</h4>
-				<span class="game-genre">Action, Adventure</span>
-				<div class="game-price"><span>$27.30</span></div>
-			</div>
-		</a>
-
-		<a href="" class="game-card game-card__small">
-			<div class="game-photo">
-				<img src="img/game/lidergames/fifa.png" alt="">
-			</div>
-			<div class="game-info">
-				<h4>FIFA 20</h4>
-				<span class="game-genre">Sport</span>
-				<div class="game-price"><span>$15.90</span></div>
-			</div>
-		</a>
-
-		<a href="" class="game-card game-card__small">
-			<div class="game-photo">
-				<img src="img/game/lidergames/ghost.png" alt="">
-			</div>
-			<div class="game-info">
-				<h4>GhostRecon </h4>
-				<span class="game-genre">Action, Adventure</span>
-				<div class="game-price"><span>$18.60</span></div>
-			</div>
-		</a>
-
-		<a href="" class="game-card game-card__small">
-			<div class="game-photo">
-				<img src="img/game/lidergames/need.png" alt="">
-			</div>
-			<div class="game-info">
-				<h4>NfS Payback</h4>
-				<span class="game-genre">Racing</span>
-				<div class="game-price"><span>$30.00</span></div>
-			</div>
-		</a>
 
 
-		<div class="game-card game-card__order">
-			<div class="game-photo game-photo__order">
-				<img src="img/game/rdr2.png" alt="">
-			</div>
-			<div class="game-info game-info__order">
-				<a href="#" class="btn-filter">НОВИНКА</a>
-				<h2>RDR 2</h2>
-				<p>
-					Действие Red Dead Redemption 2, оформленной в духе вестерна. Сюжет игры построен вокруг приключений банды
-					Датча Ван дер Линде, под управлением игрока находится один из членов банды — Артур Морган. 
-				</p>
-				<div class="game-platforms">
-					<img src="img/icons/ps.svg" alt="Playstation"><img src="img/icons/xbox.svg" alt="Xbox"><img src="img/icons/win.svg" alt="Windows">
-				</div>
-				<div class="game-price">
-					<span>$37.50</span><a target="_blank" href="https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/" class="btn-cart">Заказать</a>
-				</div>
-			</div>
-		</div>
+<header class="header">
+    <a href="index.html" class="logo">
+        <img width="48" height="48" src="./images/icons/steam-icon-logo.svg" alt="steam">
+    </a>
+    <div class="header-block">
+        <label class="search">
+            <input type="search" name="" id="" placeholder="Поиск по магазину">
+            <img src="./images/icons/search.svg" alt="search">
+        </label>
+        <div class="buttons">
+            <div class="user">
+                <img class="login" src="./images/icons/user.svg" alt="user">
+                <img class="user-photo hidden " src="./images/icons/user.png" alt="user">
+                <img class="logout hidden" src="./images/icons/arrow.svg" alt="arrow">
+            </div>
+        </div>
+    </div>
+</header>
 
-	</section>
+<nav class="nav-wrap">
+    <ul>
+        <li class="current">
+            <a href="index.html">
+                <img src="./images/icons/home-run.svg" alt="home-run">
+            </a>
+        </li>
 
-	<script src="js/script.js"></script>
+        <li>
+            <a href="page-store.html">
+                <img src="./images/icons/shop.svg" alt="shop">
+            </a>
+        </li>
+
+        <li>
+            <a target="_blank" href="https://www.youtube.com/watch?v=5qap5aO4i9A&ab_channel=LofiGirl">
+                <img src="./images/icons/audio.svg" alt="audio">
+            </a>
+        </li>
+
+        <li>
+            <a target="_blank" href="https://www.youtube.com/c/PlayStation/videos">
+                <img src="./images/icons/clapperboard.svg" alt="clapperboard.svg">
+            </a>
+        </li>
+
+    </ul>
+</nav>
+
+<h2 class="home-title">Лидеры продаж</h2>
+
+<section class="content">
+    <div class="game-card game-card__order game-home">
+        <div class="game-photo game-photo__order">
+            <img src="./images/game/cyber.webp" alt="cyber">
+        </div>
+        <div class="game-info game-info__order">
+            <a href="#" class="btn-filter">НОВИНКА</a>
+            <h2>Cyberpunk 2077</h2>
+            <p>Cyberpunk 2077 - это приключенческий боевик с открытым миром, действие которого происходит в Найт сити,
+                мегаполисе, одержимом властью, гламуром и модификациями тела.</p>
+            <div class="game-platforms">
+                <img src="./images/icons/ps.svg" alt="Playstation">
+                <img src="./images/icons/xbox.svg" alt="Xbox">
+                <img src="./images/icons/win.svg" alt="Windows">
+            </div>
+            <div class="game-price">
+                <span>$27.30</span>
+                <a target="_blank" href="https://store.steampowered.com/app/1091500/Cyberpunk_2077/" class="btn-cart">
+                    Заказать
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <a href="" class="game-card game-card__small">
+        <div class="game-photo">
+            <img src="./images/game/lidergames/btf5.webp" alt="btf5">
+        </div>
+        <div class="game-info">
+            <h4>Battlefield V</h4>
+            <span class="game-genre">Action, Adventure</span>
+            <div class="game-price"><span>$25.60</span></div>
+        </div>
+    </a>
+
+    <a href="" class="game-card game-card__small">
+        <div class="game-photo">
+            <img src="./images/game/lidergames/call.webp" alt="call">
+        </div>
+        <div class="game-info">
+            <h4>Call of Duty MW</h4>
+            <span class="game-genre">Action, Adventure</span>
+            <div class="game-price"><span>$30.60</span></div>
+        </div>
+    </a>
+
+    <a href="" class="game-card game-card__small">
+        <div class="game-photo">
+            <img src="./images/game/lidergames/cyberpank.webp" alt="cyberpank">
+        </div>
+        <div class="game-info">
+            <h4>Cyberpunk 2077</h4>
+            <span class="game-genre">Action, Adventure</span>
+            <div class="game-price"><span>$27.30</span></div>
+        </div>
+    </a>
+
+    <a href="" class="game-card game-card__small">
+        <div class="game-photo">
+            <img src="./images/game/lidergames/fifa.webp" alt="fifa">
+        </div>
+        <div class="game-info">
+            <h4>FIFA 20</h4>
+            <span class="game-genre">Sport</span>
+            <div class="game-price"><span>$15.90</span></div>
+        </div>
+    </a>
+
+    <a href="" class="game-card game-card__small">
+        <div class="game-photo">
+            <img src="./images/game/lidergames/ghost.webp" alt="ghost">
+        </div>
+        <div class="game-info">
+            <h4>GhostRecon </h4>
+            <span class="game-genre">Action, Adventure</span>
+            <div class="game-price"><span>$18.60</span></div>
+        </div>
+    </a>
+
+    <a href="" class="game-card game-card__small">
+        <div class="game-photo">
+            <img src="./images/game/lidergames/need.webp" alt="need">
+        </div>
+        <div class="game-info">
+            <h4>NfS Payback</h4>
+            <span class="game-genre">Racing</span>
+            <div class="game-price"><span>$30.00</span></div>
+        </div>
+    </a>
+
+
+    <div class="game-card game-card__order">
+        <div class="game-photo game-photo__order">
+            <img src="./images/game/rdr2.webp" alt="rdr2">
+        </div>
+        <div class="game-info game-info__order">
+            <a href="#" class="btn-filter">НОВИНКА</a>
+            <h2>RDR 2</h2>
+            <p>
+                Действие Red Dead Redemption 2, оформленной в духе вестерна. Сюжет игры построен вокруг приключений
+                банды
+                Датча Ван дер Линде, под управлением игрока находится один из членов банды — Артур Морган.
+            </p>
+            <div class="game-platforms">
+                <img src="./images/icons/ps.svg" alt="Playstation">
+                <img src="./images/icons/xbox.svg" alt="Xbox">
+                <img src="./images/icons/win.svg" alt="Windows">
+            </div>
+            <div class="game-price">
+                <span>$37.50</span>
+                <a target="_blank"
+                   href="https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/"
+                   class="btn-cart">Заказать
+                </a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<script src="./js/script.js"></script>
 </body>
 </html>

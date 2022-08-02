@@ -2,158 +2,159 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>SteamShop - покупай и играй!</title>
-	<link rel="icon" type="image/png" sizes="32x32" href="../img/icons/steam-icon-logo.svg"/>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="../css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steam-Shop - покупай и играй!</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/icons/steam-icon-logo.svg"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
 
 
-	<header class="header">
-		<a href="../index.html" class="logo">
-		<img width="48" height="48" src="../img/icons/steam-icon-logo.svg" alt="steam">
-		</a>
-		<div class="header-block">
-			<div class="search"><input type="search" name="" id="" placeholder="Поиск по магазину">
-				<img src="../img/icons/search.svg" alt="">
-			</div>
-			<div class="user">
-				<img class="login" src="../img/icons/user.svg" alt="">
-				<img class="user-photo hidden " src="../img/icons/user.png" alt="">
-				<img class="logout hidden" src="../img/icons/arrow.svg" alt="">
-			</div>
-		</div>
-	</header>
+<header class="header">
+    <a href="../index.html" class="logo">
+        <img width="48" height="48" src="../images/icons/steam-icon-logo.svg" alt="steam">
+    </a>
+    <div class="header-block">
+        <label class="search">
+            <input type="search" name="" id="" placeholder="Поиск по магазину">
+            <img src="../images/icons/search.svg" alt="search">
+        </label>
+        <div class="user">
+            <img class="login" src="../images/icons/user.svg" alt="user">
+            <img class="user-photo hidden " src="../images/icons/user.png" alt="user">
+            <img class="logout hidden" src="../images/icons/arrow.svg" alt="arrow">
+        </div>
+    </div>
+</header>
 
-	<nav class="nav-wrap">
-		<ul>
-			<li>
-				<a href="../index.html">
-					<img src="../img/icons/home-run.svg" alt="">
-				</a>
-			</li>
+<nav class="nav-wrap">
+    <ul>
+        <li>
+            <a href="../index.html">
+                <img src="../images/icons/home-run.svg" alt="home-run">
+            </a>
+        </li>
 
-			<li>
-				<a href="../page-store.html">
-					<img src="../img/icons/shop.svg" alt="">
-				</a>
-			</li>
+        <li>
+            <a href="../page-store.html">
+                <img src="../images/icons/shop.svg" alt="shop">
+            </a>
+        </li>
 
-			<li class="current">
-				<a href="gamepages/page-game-unch4.html">
-					<img src="../img/icons/fun.svg" alt="">
-				</a>
-			</li>
+        <li class="current">
+            <a href="./page-game-unch4.html">
+                <img src="../images/icons/fun.svg" alt="fun">
+            </a>
+        </li>
 
-			<li>
-				<a target="_blank" href="https://www.youtube.com/watch?v=5qap5aO4i9A&ab_channel=LofiGirl">
-					<img src="../img/icons/audio.svg" alt="">
-				</a>
-			</li>
+        <li>
+            <a target="_blank" href="https://www.youtube.com/watch?v=5qap5aO4i9A&ab_channel=LofiGirl">
+                <img src="../images/icons/audio.svg" alt="audio">
+            </a>
+        </li>
 
-			<li>
-				<a target="_blank" href="https://www.youtube.com/c/PlayStation/videos">
-					<img src="../img/icons/clapperboard.svg" alt="">
-				</a>
-			</li>
+        <li>
+            <a target="_blank" href="https://www.youtube.com/c/PlayStation/videos">
+                <img src="../images/icons/clapperboard.svg" alt="clapperboard.svg">
+            </a>
+        </li>
 
-		</ul>
-	</nav>
+    </ul>
+</nav>
 
-	<section class="content">
-		<div class="game-card game-card__order">
-			<div class="game-photo game-photo__order">
-				<img src="../img/game/unch.png" alt="">
-			</div>
-			<div class="game-info game-info__order">
-				<a href="#" class="btn-filter">НОВИНКА</a>
-				<h2 class="game-page-name">Uncharted 4</h2>
-				<ul>
-					<li>Категория: <span>Third-personActionAdventure</span></li>
-					<li>Разработчик: <span>Naughty Dog</span></li>
-					<li>Дата выхода: <span>10.05.2016</span></li>
-					<li>Платформа: <span>PS4</span></li>
-				</ul>
-				<div class="game-price">
-					<span>$59.99</span><button class="btn-cart">Заказать</button>
-				</div>
-				<a target="_blank" href="https://www.youtube.com/watch?v=hh5HV4iic1Y&ab_channel=PlayStation" class="btn-video"><img src="../img/icons/play.svg" alt="">Трейлер</a>
-			</div>
-		</div>
-
-
-		<ul class="char-nav">
-			<li class="char-nav-link char-nav-link-active">Описание</li>
-			<li class="char-nav-link">Продажи</li>
-			<li class="char-nav-link">Дополнения</li>
-			<li class="char-nav-link">Отзывы</li>
-		</ul>
-
-		<ul class="char-tabs">
-			<li class="char-tabs-all">
-					В четвёртой части серии, главные герои охотятся за сокровищами пирата Генри Эвери, 
-					которые он добыл при захвате корабля «Ганг-и-Савай». Поиски сокровищ приводят их в 
-					Либерталию, мифическую пиратскую колонию. В сюжете уделено большое внимание личным 
-					взаимоотношениям героев, а также в игре присутствуют флешбэки, рассказывающие о прошлом
-					Нейтана Дрейка.
-					<br>
-					<br>
-					Игра была анонсирована 14 ноября 2013 года и первоначально над ней работала команда 
-					разработчиков Uncharted 3: Drake’s Deception во главе с Эми Хенниг, однако весной 2014 года
-					её сменили авторы прошлого хита студии, The Last of UsПерейти. Uncharted 4: A Thief’s End стал 
-					первым проектом Naughty Dog, который разрабатывался непосредственно для консоли восьмого поколения. 
-					Новые возможности игровой приставки позволили студии значительно улучшить графику и анимацию персонажей, 
-					а также внести существенные изменения в геймплей. Релиз игры состоялся 10 мая 2016 года на игровой консоли
-					Sony PlayStation 4. 9 сентября 2021 года был анонсирован выход игры на PlayStation 5 и ПК.
-
-				</div>
-			</li>
-			<li class="char-tabs-all">
-				Выход игры состоялся 10 мая 2016 года, одновременно во всём мире. 
-				Игра доступна в трёх вариантах изданий помимо стандартного. Special Edition, Libertalia Collector’s Edition
-				и цифровом Digital Standard Edition.
-				<br>
-				<br>
-				Всего за неделю с релиза игра продалась по всему миру в количестве в 2,7 млн копий и стала самой быстро 
-				продаваемой игрой в истории серии. В мае Uncharted 4 возглавил чарт продаж видеоигр на территории США 
-				и Великобритании. На 21 декабря 2016 года игра продалась по всему миру в количестве более 8,7 млн копий, 
-				что делает её самой продаваемой игрой в истории студии.
-			</li>
-			<li class="char-tabs-all">
-				4 декабря 2016 на мероприятии PlayStation Experience 2016 состоялся анонс спин-оффа игры, 
-				Uncharted: The Lost Legacy, где главными героями являются Хлоя Фрейзер и Надин Росс
-			</li>
-			<li class="char-tabs-all">
-				По итогам выставки E3 2015 Uncharted 4 был признан лучшей консольной игрой, лучшей приключенческой игрой, 
-				а также получил специальный приз за графику. 5 мая 2016 года компания Sony сняла эмбарго на публикацию 
-				обзоров. Игра получила высокие оценки и восторженные отзывы от СМИ, освещающих игровую индустрию.
-				<br>
-				<br>
-				На сайте-агрегаторе Metacritic.com игра имеет средний балл, равный 93 из 100, основываясь на 112 обзорах, 
-				110 из которых положительные, 1 смешанный и 1 негативный. Единственный отрицательный обзор написали
-				The Washington Post, поставив игре 4 балла из 10. Данный отзыв вызвал недовольство фанатов Uncharted, 
-				которые создали петицию на change.org с просьбой к Metacritic не учитывать этот обзор.
-				<br>
-				<br>
-				В 2016 году игра Uncharted 4 заняла первое место в рейтинге Metacritic, набрав 93 балла из 100.
-				Русскоязычные СМИ также оставили положительные отзывы об игре. Такие издания, как 3D News, PlayGround.ru, 
-				«Игромания» и др. поставили игре максимальные оценки. По выбору редакции журнала «Игромания» Uncharted 4 
-				стал победителем в номинации «Игра года». Также редакция PlayGround.ru признала Uncharted 4: A Thief’s 
-				End лучшей игрой 2016 года.
-			</li>
-		</ul>
-	</section>
+<section class="content">
+    <div class="game-card game-card__order">
+        <div class="game-photo game-photo__order">
+            <img src="../images/game/unch.webp" alt="unch">
+        </div>
+        <div class="game-info game-info__order">
+            <a href="#" class="btn-filter">НОВИНКА</a>
+            <h2 class="game-page-name">Uncharted 4</h2>
+            <ul>
+                <li>Категория: <span>Third-personActionAdventure</span></li>
+                <li>Разработчик: <span>Naughty Dog</span></li>
+                <li>Дата выхода: <span>10.05.2016</span></li>
+                <li>Платформа: <span>PS4</span></li>
+            </ul>
+            <div class="game-price">
+                <span>$59.99</span>
+                <button class="btn-cart">Заказать</button>
+            </div>
+            <a target="_blank" href="https://www.youtube.com/watch?v=hh5HV4iic1Y&ab_channel=PlayStation"
+               class="btn-video">
+                <img src="../images/icons/play.svg" alt="play">Трейлер
+            </a>
+        </div>
+    </div>
 
 
-	<script src="../js/page-game.js"></script>
-	<script src="../js/script.js"></script>
+    <ul class="char-nav">
+        <li class="char-nav-link char-nav-link-active">Описание</li>
+        <li class="char-nav-link">Продажи</li>
+        <li class="char-nav-link">Дополнения</li>
+        <li class="char-nav-link">Отзывы</li>
+    </ul>
+
+    <ul class="char-tabs">
+        <li class="char-tabs-all">
+            В четвёртой части серии, главные герои охотятся за сокровищами пирата Генри Эвери,
+            которые он добыл при захвате корабля «Ганг-и-Савай». Поиски сокровищ приводят их в
+            Либерталию, мифическую пиратскую колонию. В сюжете уделено большое внимание личным
+            взаимоотношениям героев, а также в игре присутствуют флешбэки, рассказывающие о прошлом
+            Нейтана Дрейка.
+            <br>
+            <br>
+            Игра была анонсирована 14 ноября 2013 года и первоначально над ней работала команда
+            разработчиков Uncharted 3: Drake’s Deception во главе с Эми Хенниг, однако весной 2014 года
+            её сменили авторы прошлого хита студии, The Last of UsПерейти. Uncharted 4: A Thief’s End стал
+            первым проектом Naughty Dog, который разрабатывался непосредственно для консоли восьмого поколения.
+            Новые возможности игровой приставки позволили студии значительно улучшить графику и анимацию персонажей,
+            а также внести существенные изменения в геймплей. Релиз игры состоялся 10 мая 2016 года на игровой консоли
+            Sony PlayStation 4. 9 сентября 2021 года был анонсирован выход игры на PlayStation 5 и ПК.
+        </li>
+        <li class="char-tabs-all">
+            Выход игры состоялся 10 мая 2016 года, одновременно во всём мире.
+            Игра доступна в трёх вариантах изданий помимо стандартного. Special Edition, Libertalia Collector’s Edition
+            и цифровом Digital Standard Edition.
+            <br>
+            <br>
+            Всего за неделю с релиза игра продалась по всему миру в количестве в 2,7 млн копий и стала самой быстро
+            продаваемой игрой в истории серии. В мае Uncharted 4 возглавил чарт продаж видеоигр на территории США
+            и Великобритании. На 21 декабря 2016 года игра продалась по всему миру в количестве более 8,7 млн копий,
+            что делает её самой продаваемой игрой в истории студии.
+        </li>
+        <li class="char-tabs-all">
+            4 декабря 2016 на мероприятии PlayStation Experience 2016 состоялся анонс спин-оффа игры,
+            Uncharted: The Lost Legacy, где главными героями являются Хлоя Фрейзер и Надин Росс
+        </li>
+        <li class="char-tabs-all">
+            По итогам выставки E3 2015 Uncharted 4 был признан лучшей консольной игрой, лучшей приключенческой игрой,
+            а также получил специальный приз за графику. 5 мая 2016 года компания Sony сняла эмбарго на публикацию
+            обзоров. Игра получила высокие оценки и восторженные отзывы от СМИ, освещающих игровую индустрию.
+            <br>
+            <br>
+            На сайте-агрегаторе Metacritic.com игра имеет средний балл, равный 93 из 100, основываясь на 112 обзорах,
+            110 из которых положительные, 1 смешанный и 1 негативный. Единственный отрицательный обзор написали
+            The Washington Post, поставив игре 4 балла из 10. Данный отзыв вызвал недовольство фанатов Uncharted,
+            которые создали петицию на change.org с просьбой к Metacritic не учитывать этот обзор.
+            <br>
+            <br>
+            В 2016 году игра Uncharted 4 заняла первое место в рейтинге Metacritic, набрав 93 балла из 100.
+            Русскоязычные СМИ также оставили положительные отзывы об игре. Такие издания, как 3D News, PlayGround.ru,
+            «Игромания» и др. поставили игре максимальные оценки. По выбору редакции журнала «Игромания» Uncharted 4
+            стал победителем в номинации «Игра года». Также редакция PlayGround.ru признала Uncharted 4: A Thief’s
+            End лучшей игрой 2016 года.
+        </li>
+    </ul>
+</section>
+
+
+<script src="../js/page-game.js"></script>
+<script src="../js/script.js"></script>
 </body>
 
 </html>
